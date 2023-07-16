@@ -20,17 +20,17 @@ super + d
 # Take a screenshot
 Print
     sleep 0.2; \
-    scrot '${HOME}/Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
+    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
       -f -s -e 'xclip -selection clipboard -t image/png -i $f'
 
 shift + Print
     sleep 0.2; \
-    scrot '${HOME}/Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
+    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
       -f -u -e 'xclip -selection clipboard -t image/png -i $f'
 
 ctrl + shift + Print
     sleep 0.2; \
-    scrot '${HOME}/Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
+    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
       -a 0,0,2560,1440
       -e 'xclip -selection clipboard -t image/png -i $f'
 
