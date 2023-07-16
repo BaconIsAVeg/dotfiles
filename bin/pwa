@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Run PWA(s) (Progressive Web Apps) using a partial name
+# i.e. `pwa out team` will launch Outlook Mail and Teams
+
+PWA_PATH=${HOME}/.local/share/applications
+
+for app in $@
+do
+  DESKTOP=$(grep -i "Name=.*${app}" -lm 1 ${PWA_PATH}/*.desktop)
+  if [ ! -z ${DESKTOP} ]
+  then
+    APPID=$(basename ${DESKTOP} | cut -d- -f2)
+    /usr/bin/google-chrome-stable --profile-directory=Default --app-id=${APPID} &
+  fi
+done

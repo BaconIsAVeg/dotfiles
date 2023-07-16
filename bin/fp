@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Run flatpaks using a partial name
+# i.e. `fp xiv` will launch `XIVLauncher dev.goats.xivlauncher`
+
+for app in $@; do
+  flatpak list --app --columns=name,app:f | while read -r line; do
+    MATCH=$(echo ${line} | grep ${app})
+    if [ ! -z "${MATCH}" ]; then
+      APP=$(echo ${MATCH} | cut -d' ' -f2)
+      if [ ! -z "${APP}" ]; then
+        /usr/bin/flatpak run ${APP} &
+      fi
+    fi
+  done
+done

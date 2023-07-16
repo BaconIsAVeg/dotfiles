@@ -1,0 +1,18 @@
+directory: /mnt/ExternalUSB/Music
+languages: en
+import:
+    write: yes
+    detail: yes
+    move: yes
+plugins: play fetchart embedart lastgenre
+paths:
+  default: $genre/$albumartist/$album%aunique{}/$title
+  singleton: $genre/$artist/$title
+lastfm_key: a7d35991790651f28a74430c3630c1bf
+fetchart:
+  source:
+    - filesystem
+    - lastfm
+    - coverart: release
+    - coverart: releasegroup
+

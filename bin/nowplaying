@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Hook for moc to write the currently playing song to a file
+
+echo "$1 - $2" > ~/.playing

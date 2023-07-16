@@ -1,0 +1,254 @@
+{
+    "streamdeck_ui_version": 1,
+    "state": {
+        "AL22K2C77644": {
+            "buttons": {
+                "0": {
+                    "0": {
+                        "command": "/usr/bin/vivaldi-stable",
+                        "text": "",
+                        "icon": "/home/atlas/.icons/streamdeck/Web - Muxy.png",
+                        "text_vertical_align": "top"
+                    },
+                    "1": {
+                        "text": "",
+                        "command": "",
+                        "icon": "",
+                        "text_vertical_align": "top"
+                    },
+                    "2": {
+                        "command": "",
+                        "text": "",
+                        "icon": "",
+                        "text_vertical_align": "middle-top"
+                    },
+                    "3": {
+                        "text": "",
+                        "command": "",
+                        "icon": "",
+                        "text_vertical_align": "middle-top"
+                    },
+                    "4": {
+                        "text": "",
+                        "command": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+                        "icon": "/home/atlas/.icons/streamdeck/Multimedia - Volume Up.png",
+                        "text_vertical_align": "top"
+                    },
+                    "5": {
+                        "text": "",
+                        "command": "/usr/bin/google-chrome-stable",
+                        "icon": "/home/atlas/.icons/streamdeck/App - Chrome.png",
+                        "text_vertical_align": "top"
+                    },
+                    "6": {
+                        "text": "",
+                        "command": "pwa Teams",
+                        "icon": "/home/atlas/.icons/streamdeck/App - Microsoft Teams.png",
+                        "text_vertical_align": "top"
+                    },
+                    "7": {
+                        "text": "",
+                        "command": "pwa Outlook",
+                        "icon": "/home/atlas/.icons/streamdeck/App - Microsoft Outlook.png",
+                        "text_vertical_align": "top"
+                    },
+                    "8": {
+                        "command": "/usr/bin/postman",
+                        "text": "Postman",
+                        "icon": "/home/atlas/.icons/streamdeck/Misc - Open.png",
+                        "text_vertical_align": "middle-top"
+                    },
+                    "9": {
+                        "text": "",
+                        "command": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+                        "icon": "/home/atlas/.icons/streamdeck/Multimedia - Volume Down.png",
+                        "text_vertical_align": "top"
+                    },
+                    "10": {
+                        "command": "/usr/bin/discord",
+                        "text": "",
+                        "icon": "/home/atlas/.icons/streamdeck/App - Discord.png",
+                        "text_vertical_align": "top"
+                    },
+                    "11": {
+                        "text": "Joplin",
+                        "command": "fp Joplin",
+                        "icon": "/home/atlas/.icons/streamdeck/Lights - Cooler.png",
+                        "text_vertical_align": "middle-top"
+                    },
+                    "12": {
+                        "command": "/usr/bin/obs",
+                        "text": "",
+                        "icon": "/home/atlas/.icons/streamdeck/App - OBS.png",
+                        "text_vertical_align": "top"
+                    },
+                    "13": {
+                        "command": "/usr/bin/slack",
+                        "text": "Slack",
+                        "icon": "/home/atlas/.icons/streamdeck/Twitch Chat.png",
+                        "text_vertical_align": "middle-top"
+                    },
+                    "14": {
+                        "text": "",
+                        "command": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+                        "icon": "/home/atlas/.icons/streamdeck/Multimedia - Mute.png",
+                        "text_vertical_align": "top"
+                    }
+                },
+                "1": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "2": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "3": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "4": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "5": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "6": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "7": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "8": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "9": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                }
+            }
+        }
+    }
+}
