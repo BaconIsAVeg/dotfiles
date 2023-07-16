@@ -17,6 +17,22 @@ super + Escape
 super + d
 	rofi -show drun
 
+# media keys
+XF86AudioRaiseVolume
+  pactl set-sink-volume @DEFAULT_SINK@ +5%
+
+XF86AudioLowerVolume
+  pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+XF86AudioPlay
+  mocp --toggle-pause
+
+XF86AudioNext
+  mocp --next
+
+XF86AudioPrev
+  mocp --previous
+
 # Take a screenshot
 Print
     sleep 0.2; \
