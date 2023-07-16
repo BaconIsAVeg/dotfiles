@@ -74,7 +74,7 @@ bspc rule -a Vivaldi-stable:vivaldi-stable -o node=@^1:^2:/2
 bspc rule -a Google-chrome:crx_pkooggnaalmfkidjmlhoelhdllpphaga -o node=@^1:^2:/2/2
 
 # Games on 1:4
-bspc rule -a ffxiv_dx11.exe:ffxiv_dx11.exe state=floating -o node=@^1:^4:/2
+bspc rule -a ffxiv_dx11.exe:ffxiv_dx11.exe -o node=@^1:^4:/2
 
 # OBS Studio on 1:5
 bspc rule -a obs:obs -o node=@^1:^5:/
