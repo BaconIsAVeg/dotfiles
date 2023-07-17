@@ -14,7 +14,7 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 # run program launcher
-super + d
+super + shift + Return
 	rofi -show drun
 
 # media keys
