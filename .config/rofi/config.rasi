@@ -123,7 +123,7 @@ case-indicator {
 entry {
   spacing: 0;
   text-color: @normal-foreground;
-  placeholder: "What?";
+  placeholder: "";
 }
 prompt {
   spacing: 0;
