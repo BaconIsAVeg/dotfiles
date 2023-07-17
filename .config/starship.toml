@@ -1,5 +1,5 @@
 [aws]
-disabled = true
+disabled = false
 symbol = "  "
 
 [buf]
@@ -21,7 +21,7 @@ symbol = " "
 [directory]
 disabled = false
 read_only = " 󰌾"
-home_symbol = "󰋞 "
+home_symbol = "󰋞"
 
 [docker_context]
 disabled = false
@@ -178,7 +178,7 @@ disabled = false
 symbol = "🅢 "
 
 [php]
-disabled = true
+disabled = false
 symbol = " "
 
 [username]
