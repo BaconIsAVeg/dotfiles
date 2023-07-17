@@ -1,0 +1,187 @@
+[aws]
+disabled = true
+symbol = "  "
+
+[buf]
+disabled = false
+symbol = " "
+
+[c]
+disabled = false
+symbol = " "
+
+[conda]
+disabled = false
+symbol = " "
+
+[dart]
+disabled = false
+symbol = " "
+
+[directory]
+disabled = false
+read_only = " 󰌾"
+home_symbol = "󰋞 "
+
+[docker_context]
+disabled = false
+symbol = " "
+
+[elixir]
+disabled = false
+symbol = " "
+
+[elm]
+disabled = false
+symbol = " "
+
+[fossil_branch]
+disabled = false
+symbol = " "
+
+[git_branch]
+disabled = false
+symbol = " "
+
+[golang]
+disabled = false
+symbol = " "
+
+[guix_shell]
+disabled = false
+symbol = " "
+
+[haskell]
+disabled = false
+symbol = " "
+
+[haxe]
+disabled = false
+symbol = "⌘ "
+
+[hg_branch]
+disabled = false
+symbol = " "
+
+[hostname]
+disabled = false
+ssh_only = false
+ssh_symbol = " "
+
+[java]
+disabled = false
+symbol = " "
+
+[julia]
+disabled = false
+symbol = " "
+
+[lua]
+disabled = false
+symbol = " "
+
+[memory_usage]
+disabled = false
+symbol = "󰍛 "
+
+[meson]
+disabled = false
+symbol = "󰔷 "
+
+[nim]
+disabled = false
+symbol = "󰆥 "
+
+[nix_shell]
+disabled = false
+symbol = " "
+
+[nodejs]
+disabled = true
+symbol = " "
+
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Windows = "󰍲 "
+
+[os]
+disabled = false
+format = "[$symbol]($style) "
+
+[package]
+disabled = false
+symbol = "󰏗 "
+
+[pijul_channel]
+disabled = false
+symbol = "🪺 "
+
+[python]
+disabled = false
+symbol = " "
+
+[rlang]
+disabled = false
+symbol = "󰟔 "
+
+[ruby]
+disabled = false
+symbol = " "
+
+[rust]
+disabled = false
+symbol = " "
+
+[scala]
+disabled = false
+symbol = " "
+
+[spack]
+disabled = false
+symbol = "🅢 "
+
+[php]
+disabled = true
+symbol = " "
+
+[username]
+disabled = false
+show_always = true
+format = "[$user]($style)@"

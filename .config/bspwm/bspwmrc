@@ -15,7 +15,7 @@ polybar-bspwm &
 feh --no-fehbg --bg-fill --no-xinerama ${HOME}/.config/wallpaper.jpg &
 
 # Screen lock
-xautolock -locker slock -nowlocker slock -time 5 -secure &
+xautolock -locker slock -nowlocker slock -time 30 -secure &
 xsetroot -cursor_name left_ptr &
 
 #### MONITORS ####
