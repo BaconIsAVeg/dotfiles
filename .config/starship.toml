@@ -1,6 +1,6 @@
 [aws]
 disabled = false
-symbol = "  "
+symbol = " "
 
 [buf]
 disabled = false
