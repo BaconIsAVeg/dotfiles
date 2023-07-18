@@ -36,19 +36,19 @@ XF86AudioPrev
 # Take a screenshot
 Print
     sleep 0.2; \
-    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.jpg' \
-      -f -s -e 'xclip -selection clipboard -t image/jpg -i $f'
+    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
+      -f -s -e 'xclip -selection clipboard -t image/png -i $f'
 
 shift + Print
     sleep 0.2; \
-    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.jpg' \
-      -f -u -e 'xclip -selection clipboard -t image/jpg -i $f'
+    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
+      -f -u -e 'xclip -selection clipboard -t image/png -i $f'
 
 ctrl + shift + Print
     sleep 0.2; \
-    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.jpg' \
+    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
       -a 0,0,2560,1440
-      -e 'xclip -selection clipboard -t image/jpg -i $f'
+      -e 'xclip -selection clipboard -t image/png -i $f'
 
 # quit/restart bspwm
 super + alt + q

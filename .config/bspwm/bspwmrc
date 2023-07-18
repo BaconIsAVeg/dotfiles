@@ -55,10 +55,10 @@ bspc config pointer_action2 resize_side
 bspc config pointer_action3 resize_corner
 
 #### BSPWM coloring ####
-bspc config normal_border_color         "#554444"
-bspc config active_border_color	        "#3D352A"
-bspc config focused_border_color	      "#9e824c"
-bspc config presel_feedback_color	      "#BBAA99"
+bspc config normal_border_color         "#556a7d"
+bspc config active_border_color	        "#E1C0FA"
+bspc config focused_border_color	      "#97BEDC"
+bspc config presel_feedback_color	      "#75617b"
 bspc config urgent_border_color 	      "#CD5C5C"
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on

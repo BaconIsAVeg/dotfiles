@@ -4,7 +4,7 @@
  *******************************************************/
 
 configuration {
-  font: "NotoSans Regular 14";
+  font: "JetBrainsMono Nerd Font Regular 12";
   show-icons: false;
   icon-theme: "Arc-X-D";
   display-drun: "Run";
@@ -15,9 +15,9 @@ configuration {
 }
 
 @import "~/.config/rofi/arc_dark_transparent_colors.rasi" window {
-  background-color: @background;
-  border: 3;
-  border-color: #ee9900;
+  background-color: #1a2b3c;
+  border: 2px;
+  border-color: #75617b;
   padding: 10;
   width: 360px;
 }
@@ -41,13 +41,13 @@ listview {
   fixed-height: 0;
   border: 8px 0px 0px;
   border-color: @separatorcolor;
-  spacing: 3px;
+  spacing: 2;
   scrollbar: false;
   padding: 0px;
 }
 element {
   border: 0;
-  padding: 5px;
+  padding: 3px;
   orientation: horizontal;
   children: [ element-text, element-icon ];
   spacing: 5px;

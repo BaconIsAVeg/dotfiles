@@ -331,7 +331,7 @@ colors:
   # Whether or not `window.opacity` applies to all cell backgrounds or only to
   # the default background. When set to `true` all cells will be transparent
   # regardless of their background color.
-  #transparent_background_colors: false
+  transparent_background_colors: true
 
 # Bell
 #
@@ -372,7 +372,9 @@ bell:
   #     program: notify-send
   #     args: ["Hello, World!"]
   #
-  #command: None
+  command:
+    program: abeep
+    args: ["-l 50", "-f 400"]
 
 selection:
   # This string contains all characters that are used as separators for
