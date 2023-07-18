@@ -374,7 +374,7 @@ bell:
   #
   command:
     program: abeep
-    args: ["-l 50", "-f 400"]
+    args: ["-l 60", "-f 100"]
 
 selection:
   # This string contains all characters that are used as separators for
