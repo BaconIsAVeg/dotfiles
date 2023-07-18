@@ -122,7 +122,7 @@ font:
     family: JetBrainsMono Nerd Font
 
     # The `style` can be specified to pick a specific face.
-    #style: Regular
+    style: Regular
 
   # Bold font face
   #bold:
@@ -188,8 +188,8 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#000000'
-    foreground: '#FFFFFF'
+    background: '#121212'
+    foreground: '#DEDEDE'
 
     # Bright and dim foreground colors
     #
@@ -282,25 +282,25 @@ colors:
 
   # Normal colors
   normal:
-    black: '#878787'
-    red: '#FF6600'
-    green: '#CCFF04'
-    yellow: '#FFCC00'
-    blue: '#44B4CC'
-    magenta: '#9933CC'
-    cyan: '#44B4CC'
-    white: '#F5F5F5'
+    black: '#929292'
+    red: '#E27373'
+    green: '#94B979'
+    yellow: '#FFBA7B'
+    blue: '#97BEDC'
+    magenta: '#E1C0FA'
+    cyan: '#00988E'
+    white: '#DEDEDE'
 
   # Bright colors
   bright:
-    black: '#555555'
-    red: '#FF0000'
-    green: '#00FF00'
-    yellow: '#FFFF00'
-    blue: '#0000FF'
-    magenta: '#FF00FF'
-    cyan: '#00FFFF'
-    white: '#E5E5E5'
+    black: '#BDBDBD'
+    red: '#FFA1A1'
+    green: '#BDDEAB'
+    yellow: '#FFDCA0'
+    blue: '#B1D8F6'
+    magenta: '#FBDAFF'
+    cyan: '#1AB2A8'
+    white: '#FFFFFF'
 
   # Dim colors
   #
