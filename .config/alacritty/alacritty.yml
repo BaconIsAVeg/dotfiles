@@ -19,7 +19,7 @@ colors:
 
   primary:
     background: '#000000'
-    foreground: '#FFFFFF'
+    foreground: '#AFC2C2'
 
   cursor:
     cursor: '#97979b'
@@ -30,23 +30,23 @@ colors:
 
   normal:
     black: '#000000'
-    red: '#DC322F'
-    green: '#56DB3A'
-    yellow: '#FF8400'
-    blue: '#0084D4'
-    magenta: '#B729D9'
-    cyan: '#CCCCFF'
-    white: '#FFFFFF'
+    red: '#FF3030'
+    green: '#559A70'
+    yellow: '#CCAC00'
+    blue: '#0099CC'
+    magenta: '#CC69C8'
+    cyan: '#7AC4CC'
+    white: '#BCCCCC'
 
   bright:
-    black: '#1B1D21'
-    red: '#DC322F'
-    green: '#56DB3A'
-    yellow: '#FF8400'
-    blue: '#0084D4'
-    magenta: '#B729D9'
-    cyan: '#CCCCFF'
-    white: '#FFFFFF'
+    black: '#000000'
+    red: '#FF3030'
+    green: '#559A70'
+    yellow: '#CCAC00'
+    blue: '#0099CC'
+    magenta: '#CC69C8'
+    cyan: '#7AC4CC'
+    white: '#BCCCCC'
 
 bell:
   animation: EaseOutExpo
