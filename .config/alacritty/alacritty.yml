@@ -32,9 +32,9 @@ colors:
     black: '#000000'
     red: '#FF3030'
     green: '#559A70'
-    yellow: '#CCAC00'
+    magenta: '#CCAC00'
     blue: '#0099CC'
-    magenta: '#CC69C8'
+    yellow: '#CC69C8'
     cyan: '#7AC4CC'
     white: '#BCCCCC'
 
@@ -42,16 +42,16 @@ colors:
     black: '#000000'
     red: '#FF3030'
     green: '#559A70'
-    yellow: '#CCAC00'
+    magenta: '#CCAC00'
     blue: '#0099CC'
-    magenta: '#CC69C8'
+    yellow: '#CC69C8'
     cyan: '#7AC4CC'
     white: '#BCCCCC'
 
 bell:
   animation: EaseOutExpo
   duration: 250
-  color: '#405060'
+  color: '#200020'
   command:
     program: abeep
     args: [-l 60, -f 100]
