@@ -7,7 +7,9 @@ configuration {
   font: "JetBrainsMono Nerd Font Regular 12";
   show-icons: false;
   icon-theme: "Arc-X-D";
-  display-drun: "Run";
+  display-drun: "Open";
+  display-run: "Run";
+  display-ssh: "Connect";
   drun-display-format: "{name}";
   scroll-method: 0;
   disable-history: false;

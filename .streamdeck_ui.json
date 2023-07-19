@@ -17,15 +17,15 @@
                         "text_vertical_align": "top"
                     },
                     "2": {
-                        "command": "",
-                        "text": "",
-                        "icon": "",
+                        "command": "obs-cmd scene switch \"Main Camera\"",
+                        "text": "Main",
+                        "icon": "/home/atlas/.icons/streamdeck/Scene 1 - On.png",
                         "text_vertical_align": "middle-top"
                     },
                     "3": {
-                        "text": "",
-                        "command": "",
-                        "icon": "",
+                        "text": "BRB",
+                        "command": "obs-cmd scene switch \"Be Right Back\"",
+                        "icon": "/home/atlas/.icons/streamdeck/Scene 2 - On.png",
                         "text_vertical_align": "middle-top"
                     },
                     "4": {

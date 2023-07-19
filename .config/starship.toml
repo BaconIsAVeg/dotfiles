@@ -155,7 +155,7 @@ disabled = false
 symbol = "🪺 "
 
 [python]
-disabled = false
+disabled = true
 symbol = " "
 
 [rlang]
