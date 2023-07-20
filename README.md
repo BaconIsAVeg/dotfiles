@@ -1,15 +1,14 @@
 ![desktop](Pictures/Screenshots/desktop.jpg)
 
-### Social
+### Software
 
-#### Matrix.org
-    @baconisaveg
+- bspwm (Window Manager)
+- polybar (Top Bar)
+- sxhkd (Global Keyboard Shortcuts)
+- ncmpcpp (for Music)
+- lf (File Browser)
+- mpv (Video Player)
+- alacritty (Terminal)
 
-#### Pixelfed.social
-    @BaconIsAVeg
-
-#### Lemmy.ml
-    @BaconIsAVeg
-
-#### Mastodon.social
-    @BaconIsAVeg
+#### Social
+    @baconisaveg:Matrix.org
