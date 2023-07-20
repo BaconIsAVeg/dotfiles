@@ -2,13 +2,17 @@
 
 ### Software
 
-- bspwm (Window Manager)
+- EndeavourOS (Arch-based Linux Distribution)
+- bspwm, dwm (Window Managers)
 - polybar (Top Bar)
 - sxhkd (Global Keyboard Shortcuts)
-- ncmpcpp (for Music)
-- lf (File Browser)
+- ncmpcpp, mocp (Music Clients)
+- lf, ranger (File Browsers)
 - mpv (Video Player)
 - alacritty (Terminal)
+- Vivaldi, Chrome, LibreWolf (Web Browers)
+- feh (Image Viewer)
 
 #### Social
-    @baconisaveg:Matrix.org
+
+    @baconisaveg:matrix.org
