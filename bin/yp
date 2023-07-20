@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+COMMIT_MSG=${@:-.}
+
+yadm commit -a -m"${COMMIT_MSG}" && \
+  yadm push
