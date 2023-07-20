@@ -1,4 +1,4 @@
-![desktop](https://github.com/BaconIsAVeg/dotfiles/assets/139648009/6df1df22-627d-408b-acae-3fa483e86cff)
+![desktop](Pictures/Screenshots/desktop.jpg)
 
 ### Social
 
