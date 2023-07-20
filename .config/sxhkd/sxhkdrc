@@ -7,7 +7,7 @@ super + Return
 	alacritty
 
 super + l
-  slock
+  ~/.config/rofi/scripts/powermenu
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -15,7 +15,7 @@ super + Escape
 
 # run program launcher
 super + shift + Return
-	rofi -show drun
+	~/.config/rofi/scripts/launcher
 
 # media keys
 XF86AudioRaiseVolume
@@ -25,30 +25,17 @@ XF86AudioLowerVolume
   pactl set-sink-volume @DEFAULT_SINK@ -5%
 
 XF86AudioPlay
-  mocp --toggle-pause
+  mpc toggle
 
 XF86AudioNext
-  mocp --next
+  mpc next
 
 XF86AudioPrev
-  mocp --previous
+  mpc prev
 
 # Take a screenshot
 Print
-    sleep 0.2; \
-    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
-      -f -s -e 'xclip -selection clipboard -t image/png -i $f'
-
-shift + Print
-    sleep 0.2; \
-    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
-      -f -u -e 'xclip -selection clipboard -t image/png -i $f'
-
-ctrl + shift + Print
-    sleep 0.2; \
-    scrot ${HOME}/'Pictures/Screenshots/%Y-%m-%d_$wx$h.png' \
-      -a 0,0,2560,1440
-      -e 'xclip -selection clipboard -t image/png -i $f'
+	~/.config/rofi/scripts/screenshot
 
 # quit/restart bspwm
 super + alt + q

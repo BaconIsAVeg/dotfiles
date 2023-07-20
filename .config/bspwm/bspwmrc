@@ -9,13 +9,11 @@ pgrep polkit-gnome > /dev/null || /usr/lib/polkit-gnome/polkit-gnome-authenticat
 pgrep -x picom > /dev/null || picom -b &
 pgrep -x dunst > /dev/null || dunst &
 
-# Screen lock
-pgrep -x xautolock > /dev/null || xautolock -locker slock -nowlocker slock -time 30 -secure &
-xsetroot -cursor_name left_ptr &
-
+# This is where the magic happens
 polybar-bspwm &
 
 # Wallpaper
+xsetroot -cursor_name left_ptr &
 if [ -x ${HOME}/.fehbg ]; then
   ${HOME}/.fehbg
 else
