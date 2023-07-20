@@ -4,7 +4,7 @@ window:
   dimensions:
     columns: 120
     lines: 35
-  opacity: 0.85
+  opacity: 0.80
   startup_mode: Windowed
   title: calypso
   dynamic_title: true
@@ -54,7 +54,7 @@ bell:
   color: '#200020'
   command:
     program: abeep
-    args: [-l 60, -f 100]
+    args: [-l 60, -f 400]
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   save_to_clipboard: true
