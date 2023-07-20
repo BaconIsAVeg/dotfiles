@@ -5,6 +5,7 @@ pgrep -x streamdeck > /dev/null || streamdeck -n &
 picom -b &
 
 /usr/bin/dunst &
+/usr/bin/dwmblocks &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 if [ -x ~/.fehbg ]; then
