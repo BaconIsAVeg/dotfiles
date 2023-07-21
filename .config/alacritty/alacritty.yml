@@ -4,7 +4,7 @@ window:
   dimensions:
     columns: 120
     lines: 35
-  opacity: 0.80
+  opacity: 0.95
   startup_mode: Windowed
   title: calypso
   dynamic_title: true

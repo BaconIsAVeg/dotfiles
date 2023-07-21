@@ -11,10 +11,10 @@
                         "text_vertical_align": "top"
                     },
                     "1": {
-                        "text": "",
-                        "command": "",
-                        "icon": "",
-                        "text_vertical_align": "top"
+                        "text": "Element",
+                        "command": "/usr/bin/element-desktop",
+                        "icon": "/home/atlas/.icons/streamdeck/Twitch Sub Chat - On.png",
+                        "text_vertical_align": "middle-top"
                     },
                     "2": {
                         "command": "obs-cmd scene switch \"Main Camera\"",
