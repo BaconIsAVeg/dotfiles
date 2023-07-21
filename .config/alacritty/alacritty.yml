@@ -11,8 +11,8 @@ window:
 draw_bold_text_with_bright_colors: true
 font:
   normal:
-    family: JetBrainsMono Nerd Font
-    style: Regular
+    family: FiraCode Nerd Font Propo
+    style: Medium
   size: 12.0
 colors:
   transparent_background_colors: true
@@ -52,9 +52,9 @@ bell:
   animation: EaseOutExpo
   duration: 250
   color: '#200020'
-  command:
-    program: abeep
-    args: [-l 60, -f 400]
+  # command:
+    # program: abeep
+    # args: [-l 60, -f 400]
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   save_to_clipboard: true

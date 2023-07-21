@@ -10,16 +10,16 @@ while pgrep -x polybar >/dev/null; do sleep 1; done
 SCREENS=$(xrandr --listactivemonitors | grep -v "Monitors" | cut -d" " -f6)
 
 if [[ $(xrandr --listactivemonitors | grep -v "Monitors" | cut -d" " -f4 | cut -d"+" -f2- | uniq | wc -l) == 1 ]]; then
-  MONITOR=$(polybar --list-monitors | cut -d":" -f1) TRAY_POS=right /usr/bin/polybar mainbar &
+  MONITOR=$(polybar --list-monitors | cut -d":" -f1) TRAY_POS=right /usr/local/bin/polybar -c ~/.config/polybar/config.ini mainbar &
 else
   primary=$(xrandr --query | grep primary | cut -d" " -f1)
 
   for m in $SCREENS; do
     echo "$primary : $m"
     if [[ $primary == $m ]]; then
-        MONITOR=$m TRAY_POS=none /usr/bin/polybar mainbar &
+        MONITOR=$m TRAY_POS=none /usr/local/bin/polybar -c ~/.config/polybar/config.ini dwm-mainbar &
     else
-        MONITOR=$m TRAY_POS=right /usr/bin/polybar secondbar &
+        MONITOR=$m TRAY_POS=right /usr/local/bin/polybar -c ~/.config/polybar/config.ini dwm-secondbar &
     fi
   done
 fi
