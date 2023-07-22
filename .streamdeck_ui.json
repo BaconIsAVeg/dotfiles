@@ -42,14 +42,14 @@
                     },
                     "6": {
                         "text": "",
-                        "command": "pwa Teams",
-                        "icon": "/home/atlas/.icons/streamdeck/App - Microsoft Teams.png",
+                        "command": "pwa Outlook",
+                        "icon": "/home/atlas/.icons/streamdeck/App - Microsoft Outlook.png",
                         "text_vertical_align": "top"
                     },
                     "7": {
                         "text": "",
-                        "command": "pwa Outlook",
-                        "icon": "/home/atlas/.icons/streamdeck/App - Microsoft Outlook.png",
+                        "command": "pwa Teams",
+                        "icon": "/home/atlas/.icons/streamdeck/App - Microsoft Teams.png",
                         "text_vertical_align": "top"
                     },
                     "8": {
@@ -77,16 +77,16 @@
                         "text_vertical_align": "middle-top"
                     },
                     "12": {
-                        "command": "/usr/bin/obs",
-                        "text": "",
-                        "icon": "/home/atlas/.icons/streamdeck/App - OBS.png",
-                        "text_vertical_align": "top"
-                    },
-                    "13": {
                         "command": "/usr/bin/slack",
                         "text": "Slack",
                         "icon": "/home/atlas/.icons/streamdeck/Twitch Chat.png",
                         "text_vertical_align": "middle-top"
+                    },
+                    "13": {
+                        "command": "/usr/bin/obs",
+                        "text": "",
+                        "icon": "/home/atlas/.icons/streamdeck/App - OBS.png",
+                        "text_vertical_align": "top"
                     },
                     "14": {
                         "text": "",

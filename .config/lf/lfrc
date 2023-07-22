@@ -1,3 +1,16 @@
+&[ $LF_LEVEL -eq 1 ] || lf -remote "send $id echoerr \"Warning: You're in a nested lf instance!\""
+
+${{
+    w=$(tput cols)
+    if [ $w -le 80 ]; then
+        lf -remote "send $id set ratios 1:2"
+    elif [ $w -le 160 ]; then
+        lf -remote "send $id set ratios 1:2:3"
+    else
+        lf -remote "send $id set ratios 1:2:3:5"
+    fi
+}}
+
 set previewer ctpv
 set cleaner ctpvclear
 &ctpv -s $id
@@ -79,10 +92,26 @@ map p paste
 map c cut
 map y copy
 map <enter> open
-map R reload
+map r reload
 map mf mkfile
 map md mkdir
 map mm mark-save
 map mr mark-remove
 map bg setwallpaper
 map C clear
+
+cmd edit-config ${{
+    $EDITOR ~/.config/lf/lfrc
+    lf -remote "send $id source ~/.config/lf/lfrc"
+}}
+
+map R edit-config
+
+cmd copy_to_clipboard %{{
+    if type pbcopy > /dev/null 2>&1; then
+    printf '%s' "$f" | pbcopy
+    elif type xsel > /dev/null 2>&1; then
+    printf '%s' "$f" | xsel -ib
+    fi
+}}
+map <c-c> :copy_to_clipboard
