@@ -1,5 +1,5 @@
 import:
-  - /usr/share/alacritty/themes/dracula.yaml
+  - /usr/share/alacritty/themes/hardhacker.yaml
 env:
   TERM: xterm-256color
 window:

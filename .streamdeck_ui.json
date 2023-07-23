@@ -7,26 +7,26 @@
                     "0": {
                         "command": "/usr/bin/vivaldi-stable",
                         "text": "",
-                        "icon": "/home/atlas/.icons/streamdeck/Web - Muxy.png",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/vivaldi.svg",
                         "text_vertical_align": "top"
                     },
                     "1": {
-                        "text": "Element",
+                        "text": "",
                         "command": "/usr/bin/element-desktop",
-                        "icon": "/home/atlas/.icons/streamdeck/Twitch Sub Chat - On.png",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/element-desktop-bin.svg",
                         "text_vertical_align": "middle-top"
                     },
                     "2": {
-                        "command": "obs-cmd scene switch \"Main Camera\"",
-                        "text": "Main",
-                        "icon": "/home/atlas/.icons/streamdeck/Scene 1 - On.png",
+                        "command": "/usr/bin/postman",
+                        "text": "",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/postman.svg",
                         "text_vertical_align": "middle-top"
                     },
                     "3": {
-                        "text": "BRB",
-                        "command": "obs-cmd scene switch \"Be Right Back\"",
-                        "icon": "/home/atlas/.icons/streamdeck/Scene 2 - On.png",
-                        "text_vertical_align": "middle-top"
+                        "command": "/usr/bin/obs",
+                        "text": "",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/obs.svg",
+                        "text_vertical_align": "top"
                     },
                     "4": {
                         "text": "",
@@ -37,25 +37,25 @@
                     "5": {
                         "text": "",
                         "command": "/usr/bin/google-chrome-stable",
-                        "icon": "/home/atlas/.icons/streamdeck/App - Chrome.png",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/chrome.svg",
                         "text_vertical_align": "top"
                     },
                     "6": {
                         "text": "",
                         "command": "pwa Outlook",
-                        "icon": "/home/atlas/.icons/streamdeck/App - Microsoft Outlook.png",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/web-outlook.svg",
                         "text_vertical_align": "top"
                     },
                     "7": {
                         "text": "",
                         "command": "pwa Teams",
-                        "icon": "/home/atlas/.icons/streamdeck/App - Microsoft Teams.png",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/appimagekit-teams-for-linux.svg",
                         "text_vertical_align": "top"
                     },
                     "8": {
-                        "command": "/usr/bin/postman",
-                        "text": "Postman",
-                        "icon": "/home/atlas/.icons/streamdeck/Misc - Open.png",
+                        "command": "obs-cmd scene switch \"Main Camera\"",
+                        "text": "Main",
+                        "icon": "/home/atlas/.icons/streamdeck/Scene 1 - On.png",
                         "text_vertical_align": "middle-top"
                     },
                     "9": {
@@ -67,26 +67,26 @@
                     "10": {
                         "command": "/usr/bin/discord",
                         "text": "",
-                        "icon": "/home/atlas/.icons/streamdeck/App - Discord.png",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/discord.svg",
                         "text_vertical_align": "top"
                     },
                     "11": {
-                        "text": "Joplin",
+                        "text": "",
                         "command": "fp Joplin",
-                        "icon": "/home/atlas/.icons/streamdeck/Lights - Cooler.png",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/appimagekit-joplin.svg",
                         "text_vertical_align": "middle-top"
                     },
                     "12": {
                         "command": "/usr/bin/slack",
-                        "text": "Slack",
-                        "icon": "/home/atlas/.icons/streamdeck/Twitch Chat.png",
+                        "text": "",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/slack.svg",
                         "text_vertical_align": "middle-top"
                     },
                     "13": {
-                        "command": "/usr/bin/obs",
-                        "text": "",
-                        "icon": "/home/atlas/.icons/streamdeck/App - OBS.png",
-                        "text_vertical_align": "top"
+                        "text": "BRB",
+                        "command": "obs-cmd scene switch \"Be Right Back\"",
+                        "icon": "/home/atlas/.icons/streamdeck/Scene 2 - On.png",
+                        "text_vertical_align": "middle-top"
                     },
                     "14": {
                         "text": "",
@@ -248,7 +248,10 @@
                     "13": {},
                     "14": {}
                 }
-            }
+            },
+            "display_timeout": 1800,
+            "brightness": 99,
+            "brightness_dimmed": 19
         }
     }
 }
