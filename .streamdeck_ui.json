@@ -17,16 +17,16 @@
                         "text_vertical_align": "middle-top"
                     },
                     "2": {
-                        "command": "/usr/bin/postman",
-                        "text": "",
-                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/postman.svg",
-                        "text_vertical_align": "middle-top"
-                    },
-                    "3": {
                         "command": "/usr/bin/obs",
                         "text": "",
                         "icon": "/usr/share/icons/Qogir-dark/scalable/apps/obs.svg",
                         "text_vertical_align": "top"
+                    },
+                    "3": {
+                        "command": "obs-cmd scene switch \"Main Camera\"",
+                        "text": "Main",
+                        "icon": "/home/atlas/.icons/streamdeck/Scene 1 - On.png",
+                        "text_vertical_align": "middle-top"
                     },
                     "4": {
                         "text": "",
@@ -53,9 +53,9 @@
                         "text_vertical_align": "top"
                     },
                     "8": {
-                        "command": "obs-cmd scene switch \"Main Camera\"",
-                        "text": "Main",
-                        "icon": "/home/atlas/.icons/streamdeck/Scene 1 - On.png",
+                        "command": "obs-cmd scene switch \"Dice Camera\"",
+                        "text": "Dice",
+                        "icon": "/home/atlas/.icons/streamdeck/Scene 3 - On.png",
                         "text_vertical_align": "middle-top"
                     },
                     "9": {

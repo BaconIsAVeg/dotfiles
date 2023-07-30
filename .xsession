@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 pgrep -x openrgb > /dev/null || openrgb --server &
 pgrep -x streamdeck > /dev/null || streamdeck -n &
@@ -8,7 +8,7 @@ pgrep -x picom > /dev/null || picom -b &
 pgrep -x dunst > /dev/null || dunst &
 
 if [ -x ~/.fehbg ]; then
-  ~/.fehbg
+  ~/.fehbg &
 else
-  feh --no-fehbg --bg-fill --no-xinerama ${HOME}/.config/wallpaper.jpg
+  feh --no-fehbg --bg-fill --no-xinerama ${HOME}/.config/wallpaper.jpg &
 fi

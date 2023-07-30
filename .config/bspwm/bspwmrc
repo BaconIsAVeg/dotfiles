@@ -2,23 +2,9 @@
 
 # Services
 pgrep -x sxhkd > /dev/null || sxhkd &
-pgrep -x openrgb > /dev/null || openrgb --server &
-pgrep -x streamdeck > /dev/null || streamdeck -n &
-pgrep -x mpd > /dev/null || /usr/bin/mpd ${HOME}/.config/mpd/mpd.conf &
-pgrep polkit-gnome > /dev/null || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-pgrep -x picom > /dev/null || picom -b &
-pgrep -x dunst > /dev/null || dunst &
 
 # This is where the magic happens
 polybar-bspwm &
-
-# Wallpaper
-xsetroot -cursor_name left_ptr &
-if [ -x ${HOME}/.fehbg ]; then
-  ${HOME}/.fehbg
-else
-  feh --bg-fill --no-xinerama ${HOME}/.config/wallpaper.jpg
-fi
 
 #### MONITORS ####
 primary=false
@@ -35,26 +21,23 @@ do
     primary=true
 done
 
-bspc config border_width                  3
+bspc config border_width                  1
 bspc config window_gap                    20
 bspc config top_padding                   28
 bspc config bottom_padding                0
 bspc config left_padding                  0
 bspc config right_padding                 0
 bspc config single_monocle                false
-# bspc config click_to_focus                true
-bspc config split_ratio                   0.55
+bspc config split_ratio                   0.6
 bspc config borderless_monocle            true
 bspc config gapless_monocle               false
-# bspc config focus_by_distance             true
 bspc config focus_follows_pointer         true
-# bspc config history_aware_focus           true
 bspc config remove_disabled_monitors      true
 bspc config merge_overlapping_monitors    true
 bspc config pointer_modifier mod4
 bspc config pointer_action1 move
-bspc config pointer_action2 resize_side
-bspc config pointer_action3 resize_corner
+bspc config pointer_action2 resize_corner
+bspc config pointer_action3 resize_side
 
 #### BSPWM coloring ####
 bspc config normal_border_color         "#424242"
@@ -62,23 +45,24 @@ bspc config active_border_color	        "#806080"
 bspc config focused_border_color	      "#503050"
 bspc config presel_feedback_color	      "#75617b"
 
-bspc rule -a Gimp desktop='^3' state=floating follow=on
 bspc rule -a Screenkey manage=off
 
-# Pre-define some window locations
-# Browsers on workspace 1:2
-bspc rule -a Google-chrome:google-chrome -o node=@^1:^2:/1
-bspc rule -a Vivaldi-stable:vivaldi-stable -o node=@^1:^2:/2
-bspc rule -a Google-chrome:crx_pkooggnaalmfkidjmlhoelhdllpphaga -o node=@^1:^2:/2/2
+# Primary Monitor
+bspc rule -a Google-chrome:google-chrome desktop='^1:^2'
+bspc rule -a Google-chrome:crx_pkooggnaalmfkidjmlhoelhdllpphaga desktop='^1:^2'
+bspc rule -a XIVLauncher.Core desktop='^1:^4' state=floating center=on border=off
+bspc rule -a ffxiv_dx11.exe:ffxiv_dx11.exe desktop='^1:^4'
+bspc rule -a obs:obs desktop='^1:^5' state=floating center=on border=off
+bspc rule -a Vivaldi-stable:vivaldi-stable desktop='^1:^6'
+bspc rule -a Joplin:joplin split_ratio=0.65 desktop='^1:^6'
 
-# Games on 1:4
-bspc rule -a ffxiv_dx11.exe:ffxiv_dx11.exe -o node=@^1:^4:/2
+# Secondary Monitor
+bspc rule -a Google-chrome:crx_cifhbcnohmdccbgoicgdjpfamggdegmo desktop='^2:^1'
+bspc rule -a Slack:slack desktop='^2:^1'
+bspc rule -a discord:discord desktop='^2:^2'
+bspc rule -a Element:element desktop='^2:^2'
+bspc rule -a zoom desktop='^2:^3' state=floating center=on follow=on border=off rectangle='800x600'
 
-# OBS Studio on 1:5
-bspc rule -a obs:obs -o node=@^1:^5:/
-
-# Chats on the second monitor
-bspc rule -a Slack:slack -o node=@^2:^1:/1
-bspc rule -a Google-chrome:crx_cifhbcnohmdccbgoicgdjpfamggdegmo -o node=@^2:^1:/2
-bspc rule -a discord:discord -o node=@^2:^2:/
-bspc rule -a Element:element -o node=@^2:^2:/2
+# Wine Apps
+bspc rule -a daz3dim.exe state=floating follow=on center=on border=off desktop='^1:^7'
+bspc rule -a dazstudio.exe state=floating follow=on center=on border=off desktop='^1:^7'
