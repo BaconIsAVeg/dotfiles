@@ -32,7 +32,6 @@ lvim.plugins = {
     event = "BufRead",
     config = function()
       vim.cmd("highlight default link gitblame SpecialComment")
-      vim.g.gitblame_enabled = 0
     end,
   },
   {
@@ -62,15 +61,17 @@ lvim.plugins = {
 
 lvim.builtin.which_key.mappings["t"] = {
   name = "Toggle",
-  f = { "<cmd>ToggleTerm<cr>", "Floating terminal" },
-  v = { "<cmd>2ToggleTerm size=30 direction=vertical<cr>", "Split vertical" },
-  h = { "<cmd>2ToggleTerm size=30 direction=horizontal<cr>", "Split horizontal" },
+  t = { "<cmd>ToggleTerm<cr>", "Floating terminal" },
+  v = { "<cmd>ToggleTerm size=30 direction=vertical<cr>", "Split vertical" },
+  h = { "<cmd>ToggleTerm size=15 direction=horizontal<cr>", "Split horizontal" },
   s = { "<cmd>set hlsearch!<CR>", "Toggle Highlight" },
   q = { "<cmd>call QuickFixToggle()<CR>", "Toggle Quick Fix List" },
   b = { "<cmd>GitBlameToggle<CR>", "Toggle Git Blame" },
-  t = { "<cmd>Twilight<CR>", "Toggle Twilight" },
+  w = { "<cmd>Twilight<CR>", "Toggle Twilight" },
   i = { "<cmd>IndentBlanklineToggle<CR>", "Toggle Indent Line" },
   x = { "<cmd>TroubleToggle<CR>", "Toggle Trouble" },
 }
 
 lvim.builtin.which_key.mappings["s"]["m"] = { "<cmd>Telescope marks<cr>", "Search Marks" }
+
+vim.g.gitblame_enabled = 0
