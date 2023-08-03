@@ -1,5 +1,6 @@
 #!/bin/sh
 
+pgrep -x nm-applet > /dev/null || nm-applet --indicator &
 pgrep -x openrgb > /dev/null || openrgb --server &
 pgrep -x streamdeck > /dev/null || streamdeck -n &
 pgrep -x mpd > /dev/null || /usr/bin/mpd ${HOME}/.config/mpd/mpd.conf &

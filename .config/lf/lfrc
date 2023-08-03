@@ -1,4 +1,4 @@
-&[ $LF_LEVEL -eq 1 ] || lf -remote "send $id echoerr \"Warning: You're in a nested lf instance!\""
+&[ $LF_LEVEL -eq 1 /d || lf -remote "send $id echoerr \"Warning: You're in a nested lf instance!\""
 
 ${{
     w=$(tput cols)
@@ -34,6 +34,10 @@ cmd mkfile ${{
   read ans
   $EDITOR $ans
 }}
+
+cmd dragon %dragon-drop -a -x "$fx"
+cmd dragon-stay %dragon-drop -a "$fx"
+cmd dragon-individual %dragon-drop "$fx"
 
 cmd setwallpaper ${{
     feh --bg-fill --no-xinerama "$f"
@@ -99,6 +103,11 @@ map mm mark-save
 map mr mark-remove
 map bg setwallpaper
 map C clear
+
+# Dragon Mapping
+map dg dragon
+map ds dragon-stay
+map di dragon-individual
 
 cmd edit-config ${{
     $EDITOR ~/.config/lf/lfrc
