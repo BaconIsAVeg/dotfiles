@@ -21,6 +21,7 @@ do
     primary=true
 done
 
+#bspc config automatic_scheme              alternate
 bspc config border_width                  1
 bspc config window_gap                    20
 bspc config top_padding                   28
@@ -30,14 +31,14 @@ bspc config right_padding                 0
 bspc config single_monocle                false
 bspc config split_ratio                   0.6
 bspc config borderless_monocle            true
-bspc config gapless_monocle               false
+bspc config gapless_monocle               true
 bspc config focus_follows_pointer         true
 bspc config remove_disabled_monitors      true
 bspc config merge_overlapping_monitors    true
-bspc config pointer_modifier mod4
-bspc config pointer_action1 move
-bspc config pointer_action2 resize_corner
-bspc config pointer_action3 resize_side
+bspc config pointer_modifier              mod4
+bspc config pointer_action1               move
+bspc config pointer_action2               resize_corner
+bspc config pointer_action3               resize_side
 
 #### BSPWM coloring ####
 bspc config normal_border_color         "#424242"
@@ -47,6 +48,7 @@ bspc config presel_feedback_color	      "#75617b"
 
 bspc rule -a Screenkey manage=off
 
+
 # Primary Monitor
 # bspc rule -a Google-chrome:google-chrome desktop='^1:^2'
 # bspc rule -a Google-chrome:crx_pkooggnaalmfkidjmlhoelhdllpphaga desktop='^1:^2'
@@ -55,6 +57,7 @@ bspc rule -a ffxiv_dx11.exe:ffxiv_dx11.exe desktop='^1:^4'
 bspc rule -a obs:obs desktop='^1:^5' state=floating center=on border=off
 # bspc rule -a Vivaldi-stable:vivaldi-stable desktop='^1:^6'
 # bspc rule -a Joplin:joplin split_ratio=0.65 desktop='^1:^6'
+bspc rule -a Galculator state=floating center=on border=off
 
 # Secondary Monitor
 bspc rule -a Google-chrome:crx_cifhbcnohmdccbgoicgdjpfamggdegmo desktop='^2:^2'
@@ -66,3 +69,6 @@ bspc rule -a zoom desktop='^2:^3' state=floating center=on follow=on border=off 
 # Wine Apps
 bspc rule -a daz3dim.exe state=floating follow=on center=on border=off desktop='^1:^7'
 bspc rule -a dazstudio.exe state=floating follow=on center=on border=off desktop='^1:^7'
+
+~/.config/bspwm/scripts/swallow.py &
+~/.config/bspwm/scripts/automatic_tab.py &
