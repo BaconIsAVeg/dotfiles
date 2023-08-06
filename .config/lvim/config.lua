@@ -6,7 +6,7 @@
 vim.opt.timeoutlen = 250 -- or 500 (Default: 1000)
 vim.g.transparent_background = true
 vim.g.gitblame_enabled = 0
-lvim.colorscheme = "tokyonight-night"
+lvim.colorscheme = "tokyonight-storm"
 
 lvim.plugins = {
   {
