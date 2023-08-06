@@ -48,19 +48,19 @@ bspc config presel_feedback_color	      "#75617b"
 bspc rule -a Screenkey manage=off
 
 # Primary Monitor
-bspc rule -a Google-chrome:google-chrome desktop='^1:^2'
-bspc rule -a Google-chrome:crx_pkooggnaalmfkidjmlhoelhdllpphaga desktop='^1:^2'
+# bspc rule -a Google-chrome:google-chrome desktop='^1:^2'
+# bspc rule -a Google-chrome:crx_pkooggnaalmfkidjmlhoelhdllpphaga desktop='^1:^2'
 bspc rule -a XIVLauncher.Core desktop='^1:^4' state=floating center=on border=off
 bspc rule -a ffxiv_dx11.exe:ffxiv_dx11.exe desktop='^1:^4'
 bspc rule -a obs:obs desktop='^1:^5' state=floating center=on border=off
-bspc rule -a Vivaldi-stable:vivaldi-stable desktop='^1:^6'
-bspc rule -a Joplin:joplin split_ratio=0.65 desktop='^1:^6'
+# bspc rule -a Vivaldi-stable:vivaldi-stable desktop='^1:^6'
+# bspc rule -a Joplin:joplin split_ratio=0.65 desktop='^1:^6'
 
 # Secondary Monitor
-bspc rule -a Google-chrome:crx_cifhbcnohmdccbgoicgdjpfamggdegmo desktop='^2:^1'
-bspc rule -a Slack:slack desktop='^2:^1'
-bspc rule -a discord:discord desktop='^2:^2'
-bspc rule -a Element:element desktop='^2:^2'
+bspc rule -a Google-chrome:crx_cifhbcnohmdccbgoicgdjpfamggdegmo desktop='^2:^2'
+bspc rule -a Slack:slack desktop='^2:^2'
+bspc rule -a discord:discord desktop='^2:^1'
+bspc rule -a Element:element desktop='^2:^1'
 bspc rule -a zoom desktop='^2:^3' state=floating center=on follow=on border=off rectangle='800x600'
 
 # Wine Apps
