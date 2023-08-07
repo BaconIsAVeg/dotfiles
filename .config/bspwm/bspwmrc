@@ -58,7 +58,7 @@ bspc rule -a obs:obs desktop='^1:^5' state=floating center=on border=off
 # bspc rule -a Vivaldi-stable:vivaldi-stable desktop='^1:^6'
 # bspc rule -a Joplin:joplin split_ratio=0.65 desktop='^1:^6'
 bspc rule -a Galculator state=floating center=on border=off
-bspc rule -a Blender state=floating border=off
+bspc rule -a Blender state=floating center=on border=off
 
 # Secondary Monitor
 bspc rule -a Google-chrome:crx_cifhbcnohmdccbgoicgdjpfamggdegmo desktop='^2:^2'
