@@ -1,0 +1,1 @@
+/home/atlas/code/dwm/config.h
