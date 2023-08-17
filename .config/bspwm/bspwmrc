@@ -41,10 +41,17 @@ bspc config pointer_action2               resize_corner
 bspc config pointer_action3               resize_side
 
 #### BSPWM coloring ####
-bspc config normal_border_color         "#424242"
-bspc config active_border_color	        "#806080"
-bspc config focused_border_color	      "#503050"
-bspc config presel_feedback_color	      "#75617b"
+# bspc config normal_border_color         "#424242"
+# bspc config active_border_color	        "#806080"
+# bspc config focused_border_color	      "#503050"
+# bspc config presel_feedback_color	      "#75617b"
+
+# Dracula
+bspc config normal_border_color     "#44475a"
+bspc config active_border_color     "#bd93f9"
+bspc config focused_border_color    "#ff79c6"
+bspc config presel_feedback_color   "#6272a4"
+
 
 bspc rule -a Screenkey manage=off
 

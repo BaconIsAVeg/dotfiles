@@ -12,8 +12,8 @@
                     },
                     "1": {
                         "text": "",
-                        "command": "/usr/bin/element-desktop",
-                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/element-desktop-bin.svg",
+                        "command": "Obsidian-1.3.7.AppImage",
+                        "icon": "/home/atlas/.icons/20201104173308_obsidian icon.png",
                         "text_vertical_align": "middle-top"
                     },
                     "2": {
@@ -42,14 +42,14 @@
                     },
                     "6": {
                         "text": "",
-                        "command": "pwa Outlook",
-                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/web-outlook.svg",
+                        "command": "pwa Teams",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/appimagekit-teams-for-linux.svg",
                         "text_vertical_align": "top"
                     },
                     "7": {
+                        "command": "/usr/bin/discord",
                         "text": "",
-                        "command": "pwa Teams",
-                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/appimagekit-teams-for-linux.svg",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/discord.svg",
                         "text_vertical_align": "top"
                     },
                     "8": {
@@ -65,21 +65,21 @@
                         "text_vertical_align": "top"
                     },
                     "10": {
-                        "command": "/usr/bin/discord",
                         "text": "",
-                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/discord.svg",
+                        "command": "pwa Outlook",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/web-outlook.svg",
                         "text_vertical_align": "top"
                     },
                     "11": {
-                        "text": "",
-                        "command": "Obsidian-1.3.7.AppImage",
-                        "icon": "/home/atlas/.icons/20201104173308_obsidian icon.png",
-                        "text_vertical_align": "middle-top"
-                    },
-                    "12": {
                         "command": "/usr/bin/slack",
                         "text": "",
                         "icon": "/usr/share/icons/Qogir-dark/scalable/apps/slack.svg",
+                        "text_vertical_align": "middle-top"
+                    },
+                    "12": {
+                        "text": "",
+                        "command": "/usr/bin/element-desktop",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/element-desktop-bin.svg",
                         "text_vertical_align": "middle-top"
                     },
                     "13": {
