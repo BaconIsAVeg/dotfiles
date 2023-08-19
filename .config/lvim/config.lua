@@ -117,3 +117,16 @@ vim.api.nvim_create_autocmd("BufEnter", {
     end
   end
 })
+
+vim.opt.foldmethod                             = "expr"
+vim.opt.foldexpr                               = "nvim_treesitter#foldexpr()"
+vim.opt.foldlevel                              = 99
+vim.opt.foldenable                             = true
+
+lvim.builtin.which_key.setup.plugins.presets.z = true
+
+lvim.builtin.project.detection_methods         = { "lsp", "pattern" }
+
+lvim.builtin.treesitter.indent.disable         = false
+lvim.builtin.treesitter.playground.enable      = true
+lvim.builtin.treesitter.matchup.enable         = true
