@@ -1,0 +1,10 @@
+#!/bin/sh
+
+dmenu_run \
+  -i \
+  -fn "NotoSans:size=9" \
+  -x 420 \
+  -l 6 \
+  -w 1000 \
+  -nb "#222" \
+  -o 0.6
