@@ -1,10 +1,16 @@
 #!/bin/sh
 
-dmenu_run \
-  -i \
-  -fn "NotoSans:size=9" \
-  -x 420 \
-  -l 6 \
-  -w 1000 \
-  -nb "#222" \
-  -o 0.6
+BGCOLOR="#6d455aa9"
+
+bemenu-run \
+  --line-height=28 \
+  --fn="NotoSans Regular 12" \
+  --tb=$BGCOLOR \
+  --tf=#a0a0a0 \
+  --fb=$BGCOLOR \
+  --nb=$BGCOLOR \
+  --ab=$BGCOLOR \
+  --hp=5 \
+  --ch=18 \
+  --no-overlap \
+  --prompt="command" $@
