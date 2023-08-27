@@ -36,8 +36,8 @@
                     },
                     "5": {
                         "text": "",
-                        "command": "/usr/bin/google-chrome-stable",
-                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/chrome.svg",
+                        "command": "pwa Outlook",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/web-outlook.svg",
                         "text_vertical_align": "top"
                     },
                     "6": {
@@ -66,8 +66,8 @@
                     },
                     "10": {
                         "text": "",
-                        "command": "pwa Outlook",
-                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/web-outlook.svg",
+                        "command": "launcher",
+                        "icon": "/usr/share/icons/Qogir-dark/scalable/apps/applications-utilities.svg",
                         "text_vertical_align": "top"
                     },
                     "11": {
