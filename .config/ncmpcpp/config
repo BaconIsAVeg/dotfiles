@@ -1,7 +1,7 @@
 ncmpcpp_directory = ~/.config/ncmpcpp
 lyrics_directory = ~/.config/ncmpcpp/lyrics
 mpd_music_dir = /mnt/ExternalUSB/Music
-mouse_support = no
+mouse_support = yes
 jump_to_now_playing_song_at_start = yes
 external_editor = vi
 use_console_editor = yes
