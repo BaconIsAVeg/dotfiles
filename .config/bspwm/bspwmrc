@@ -63,6 +63,7 @@ bspc rule -a obs:obs desktop='^1:^9'
 bspc rule -a Galculator state=floating center=on border=off
 bspc rule -a Blender state=floating center=on border=off
 bspc rule -a scratchpad sticky=on state=floating center=on
+bspc rule -a Bitwarden state=floating center=on desktop='^1:^9'
 
 # Wine Apps
 bspc rule -a daz3dim.exe state=floating follow=on center=on desktop='^1:^7'
