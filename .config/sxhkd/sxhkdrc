@@ -45,13 +45,13 @@ XF86AudioLowerVolume
   pactl set-sink-volume @DEFAULT_SINK@ -5%
 
 XF86AudioPlay
-  mpc toggle
+  playerctl play-pause
 
 XF86AudioNext
-  mpc next
+  playerctl next
 
 XF86AudioPrev
-  mpc prev
+  playerstl prev
 
 # Take a screenshot
 Print
