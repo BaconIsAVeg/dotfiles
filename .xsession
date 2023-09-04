@@ -1,5 +1,7 @@
 #!/bin/sh
 
+dex -a -e XFCE
+
 pgrep polkit-gnome > /dev/null || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 pgrep -x nm-applet > /dev/null || nm-applet --indicator &
 pgrep -x openrgb > /dev/null || openrgb --server &
