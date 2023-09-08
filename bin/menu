@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BGCOLOR="#6d455aa9"
+BGCOLOR="#6D455A"
 
 bemenu-run \
   --line-height=28 \
@@ -13,4 +13,4 @@ bemenu-run \
   --hp=5 \
   --ch=18 \
   --no-overlap \
-  --prompt="command" $@
+  --prompt="run" $@
