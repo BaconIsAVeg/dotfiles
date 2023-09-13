@@ -69,5 +69,5 @@ bspc rule -a Bitwarden state=floating center=on desktop='^1:^9'
 bspc rule -a daz3dim.exe state=floating follow=on center=on desktop='^1:^7'
 bspc rule -a dazstudio.exe follow=on desktop='^1:^7'
 
-pgrep -f swallow.py > /dev/null || ~/.config/bspwm/scripts/swallow.py &
-pgrep -f automatic_tab.py > /dev/null || ~/.config/bspwm/scripts/automatic_tab.py &
+# pgrep -f swallow.py > /dev/null || ~/.config/bspwm/scripts/swallow.py &
+# pgrep -f automatic_tab.py > /dev/null || ~/.config/bspwm/scripts/automatic_tab.py &

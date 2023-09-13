@@ -7,7 +7,7 @@ if [ -z "$winclass" ]; then
     neww -d ncspot \; \
     neww -d nvtop \; \
     neww -d btop \; \
-    neww -c ~/ai \; splitw -c ~/ai \; renamew ai \; last
+    neww -c ~/ai \; renamew ai \; last
 else
   if [ ! -f /tmp/scratchpad ]; then
     touch /tmp/scratchpad && xdo hide "$winclass"
