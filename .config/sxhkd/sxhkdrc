@@ -27,7 +27,7 @@ super + w
 
 # Power menu
 super + l
-  ~/.config/rofi/scripts/powermenu
+  betterlockscreen -l
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -36,6 +36,10 @@ super + Escape
 # run program launcher
 super + shift + Return
 	menu # launcher
+
+# run program launcher
+super + ctrl + Return
+	launcher
 
 # media keys
 XF86AudioRaiseVolume
