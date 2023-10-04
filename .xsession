@@ -10,11 +10,13 @@ pgrep -x streamdeck > /dev/null || streamdeck -n &
 pgrep -x picom > /dev/null || picom -b &
 pgrep -x dunst > /dev/null || dunst &
 
-if [ -x ~/.fehbg ]; then
-  ~/.fehbg &
-else
-  feh --no-fehbg --bg-fill --no-xinerama ${HOME}/.config/wallpaper.jpg &
-fi
+feh --bg-fill --random ~/Pictures/Wallpapers
+
+#if [ -x ~/.fehbg ]; then
+#  ~/.fehbg &
+#else
+#  feh --no-fehbg --bg-fill --no-xinerama ${HOME}/.config/wallpaper.jpg &
+#fi
 
 pgrep -x mpd-mpris > /dev/null || sleep 3 && mpd-mpris &
 pgrep -x playerctld > /dev/null || playerctld daemon &

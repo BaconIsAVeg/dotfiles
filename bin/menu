@@ -1,9 +1,9 @@
 #!/bin/sh
 
-BGCOLOR="#6D455A"
+BGCOLOR="#2f343e"
 
 bemenu-run \
-  --line-height=28 \
+  --line-height=39 \
   --fn="NotoSans Regular 12" \
   --tb=$BGCOLOR \
   --tf=#a0a0a0 \
@@ -13,4 +13,4 @@ bemenu-run \
   --hp=5 \
   --ch=18 \
   --no-overlap \
-  --prompt="run" $@
+  --prompt="Launch" $@
