@@ -1,0 +1,115 @@
+# example sxhkdrc for use with dk
+#########################################################
+
+# terminal emulator
+super + Return
+	kitty
+
+# web browser with personal/work profiles
+super + b
+  qutebrowser -B /home/atlas/.config/qutebrowser-personal
+
+super + shift + b
+  qutebrowser
+
+# GUI file manager (eww)
+super + e
+  thunar
+
+# Because math is hard, ok?
+super + y
+  galculator
+
+# All the TUI's under one roof
+super + w
+  scratchpad
+
+# Power menu
+super + l
+  betterlockscreen -l
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# run program launcher
+super + shift + Return
+	launcher
+
+# run program launcher
+super + ctrl + Return
+	menu
+
+# media keys
+XF86AudioRaiseVolume
+  pactl set-sink-volume @DEFAULT_SINK@ +5%
+
+XF86AudioLowerVolume
+  pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+XF86AudioPlay
+  playerctl play-pause
+
+XF86AudioNext
+  playerctl next
+
+XF86AudioPrev
+  playerstl prev
+
+# Take a screenshot
+Print
+	~/.config/rofi/scripts/screenshot
+
+# quit dk
+suprt + alt q
+	dkcmd exit
+
+# reload dkrc
+super + ctrl + shift + r
+	$HOME/.config/dk/dkrc
+
+# restart dk
+super + shift + r
+	dkcmd restart
+
+# close window, swap tiled window in/out of master, cycle tiled windows in place
+super + shift + c
+	dkcmd win kill
+
+# toggle floating or sticky
+super + {t,s,space}
+	dkcmd win {float,stick,full}
+
+super + z
+  dkcmd win mvstack up
+
+super + {j,k}
+  dkcmd win focus {next,prev}
+
+# move window, signed (+/-) for relative changes
+super + shift + {Left,Down,Up,Right}
+	dkcmd win resize {x=-20,y=+20,y=-20,x=+20}
+
+# resize window, signed (+/-) for relative changes
+super + ctrl + alt + {Left,Down,Up,Right}
+	dkcmd win resize {w=-20,h=+20,h=-20,w=+20}
+
+# view, send, or follow to a workspace (by number)
+super + {_,shift + ,ctrl + }{1-9,0}
+	dkcmd ws {view,send,follow} {1-9,10}
+
+# cycle through workspaces
+super + {Left,Right,Up}
+  dkcmd ws {prev,next,last}
+
+# view, send, or follow to the next, previous, or last active monitor
+super + {_,shift + ,ctrl + }{comma,period,backslash}
+	dkcmd mon {view,send,follow} {prev,next,last}
+
+# change active workspace layout
+# super + {t,r,m,g,s,w,f,u}
+#	dkcmd set layout {tile,rtile,mono,grid,spiral,dwindle,none,tstack}
+
+# change number of windows in master or first stack
+super + {_,shift + }{i,d}
+	dkcmd set {master,stack} {+1,-1}

@@ -35,11 +35,11 @@ super + Escape
 
 # run program launcher
 super + shift + Return
-	menu # launcher
+	launcher
 
 # run program launcher
 super + ctrl + Return
-	launcher
+	menu
 
 # media keys
 XF86AudioRaiseVolume
